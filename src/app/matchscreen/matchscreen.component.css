@@ -1,0 +1,15 @@
+.allign{
+    background: white;
+    width: 29%; 
+    text-align: center; 
+    margin: 50px 50px 49px 60px;
+    border-radius: 40px;
+}
+.on-strike{
+    width: 29%; 
+    text-align: center; 
+    margin: 50px 50px 49px 60px;
+    background-color: green;
+    /* background: url('/assets/batsman-strike.png'); */
+    border-radius: 40px;
+}

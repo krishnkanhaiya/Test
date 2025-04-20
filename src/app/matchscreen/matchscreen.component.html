@@ -1,0 +1,20 @@
+<div class="container-fluid bg-light vh-100 d-flex flex-column justify-content-center align-items-center">
+    <div class="card text-center shadow-lg" style="width: 80%;">
+      <div class="card-header bg-primary text-white">
+        <h1>Match Screen</h1>
+      </div>
+      <div class="card-body">
+        <h2 class="text-success">Score: {{ score }}</h2>
+        <p>
+          <strong>Batsman 1:</strong> {{ batsman1 }}
+          <span *ngIf="onstrikeb1" class="badge bg-warning text-dark">On Strike</span>
+        </p>
+        <p>
+          <strong>Batsman 2:</strong> {{ batsman2 }}
+          <span *ngIf="!onstrikeb1" class="badge bg-warning text-dark">On Strike</span>
+        </p>
+        <p><strong>Bowler:</strong> {{ Bowler }}</p>
+        <h3 class="text-danger mt-3">{{ message }}</h3>
+      </div>
+    </div>
+  </div>
